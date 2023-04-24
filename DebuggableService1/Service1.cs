@@ -21,7 +21,6 @@ namespace DebuggableService1
         protected override void OnStop()
         {
             Console.WriteLine("Service Stopped.");
-
         }
     }
 }

@@ -8,7 +8,6 @@ namespace DebuggableService1
         static void Main()
         {
             var service = new Service1();
-
             if (System.Environment.UserInteractive)
             {
                 var wh = new EventWaitHandle(false, EventResetMode.AutoReset, "StopService");
